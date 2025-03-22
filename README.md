@@ -1,7 +1,7 @@
 # A-32-ASSIGNMENT2
 ##  Student Project – Multi-App Django Application**  
 ### ** Overview**  
-This is a **Django-based multi-app project** designed as part of an assignment. The project is **fully Dockerized** and integrated with **Jenkins** for automated CI/CD deployment.  
+This is a **Django-based multi-app project**  
 - **Framework:** Django  
 - **Containerization:** Docker  
 - **Automation:** Jenkins  
@@ -36,13 +36,13 @@ Instead of building manually, you can **pull the prebuilt image**:
 docker pull chhavipancholi/chhavipancholi-assignment2:latest
 docker run -p 8000:8000 chhavipancholi/chhavipancholi-assignment2
 ```
-✅ Now your project will be live on `http://127.0.0.1:8000/`  
+Now your project will be live on `http://127.0.0.1:8000/`  
 ---
 ### **Jenkins CI/CD Pipeline**  
 The Jenkins pipeline automates:  
-✅ **Pulling code from GitHub**  
-✅ **Building a Docker image**  
-✅ **Pushing it to Docker Hub**  
+1 pulling code from GitHub**  
+2.Building a Docker image**  
+3.Pushing it to Docker Hub**  
 To trigger the pipeline, **push any changes to GitHub**, and Jenkins will do the rest!
 ### ** Important Links**
 - **GitHub Repository:** [A-32-ASSIGNMENT2](https://github.com/SRCEM-AIM-Class-A/A-32-ASSIGNMENT2)  
